@@ -1,0 +1,20 @@
+{
+  "schemaVersion": 1,
+  "id": "webctc",
+  "version": "${version}",
+  "name": "RTMU-WebCTC",
+  "description": "本家 WebCTC (org.webctc / Kaiz_JP, masa0300 / AGPL-3.0) の 1.21.1 移植。サーバー起動時に Web サーバーを立ち上げ、ブラウザから列車・レール・信号の閲覧と操作ができる。(RTMU 本体が必要です)",
+  "authors": ["Kaiz_JP", "masa0300"],
+  "contributors": ["325-Sunnygo (1.21.1 移植)"],
+  "license": "AGPL-3.0-or-later",
+  "environment": "*",
+  "entrypoints": {
+    "main": ["org.webctc.fabric.WebCTCFabricInit"]
+  },
+  "depends": {
+    "fabricloader": ">=0.16",
+    "minecraft": "1.21.1",
+    "java": ">=21",
+    "realtrainmodunofficial": "*"
+  }
+}
